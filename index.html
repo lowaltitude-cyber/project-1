@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- AOS 动画库 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <title>EGG 💖</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>哈喽，小肥蛋</h1>
+    <p class="subtitle">这是一个属于你的秘密网站</p>
+    <div class="countdown" id="countdown">距离我们见面还有：加载中...</div>
+  </header>
+  <section class="photo-wall">
+    <h2>瞬间 📸</h2>
+  
+    <div class="photo-group" data-aos="fade-up">
+      <h3>📍 二蛋时刻</h3>
+      <div class="photo-scroll">
+        <img src="images/1.jpeg" alt="旅行1">
+        <img src="images/2.jpeg" alt="旅行2">
+        <img src="images/3.jpeg" alt="旅行3">
+        <img src="images/4.jpeg" alt="旅行4">
+        <img src="images/5.jpeg" alt="旅行5">
+        <img src="images/6.jpeg" alt="旅行5">
+        <img src="images/7.jpeg" alt="旅行5">
+        <img src="images/8.png" alt="旅行5">
+        <img src="images/9.jpeg" alt="旅行5">
+        <img src="images/10.jpeg" alt="旅行5">
+        <img src="images/11.jpeg" alt="旅行5">
+        <img src="images/12.jpeg" alt="旅行5">
+      </div>
+    </div>
+  
+    <div class="photo-scroll" data-aos="fade-up">
+      <h3>📍 </h3>
+      <div class="photo-scroll">
+        <img src="images/travel1.jpg" alt="旅行1">
+        <img src="images/travel2.jpg" alt="旅行2">
+        <img src="images/travel3.jpg" alt="旅行3">
+        <img src="images/travel4.jpg" alt="旅行4">
+        <img src="images/travel5.jpg" alt="旅行5">
+      </div>
+    </div>
+  
+  </section>
+  
+  
+
+  <script src="script.js"></script>
+  <!-- AOS 动画库 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000, // 动画持续时间（ms）
+      once: true      // 只在第一次滚动时触发
+    });
+  </script>
+
+</body>
+</html>
