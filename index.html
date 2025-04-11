@@ -83,7 +83,7 @@
   </section>
   
   
-  
+  <audio id="bg-music" src="audio/afternoon.mp3" autoplay loop></audio>
 
   <script src="script.js"></script>
   <!-- AOS 动画库 JS -->
@@ -99,5 +99,14 @@
   <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox.min.js"></script>
 
 
+  <script>
+    document.addEventListener("click", function () {
+      const bgm = document.getElementById("bg-music");
+      if (bgm.paused) {
+        bgm.play();
+      }
+    }, { once: true });
+  </script>
+  
 </body>
 </html>
