@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- AOS 动画库 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <!-- Lightbox2 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css" rel="stylesheet">
   <title>EGG 💖</title>
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -20,18 +22,43 @@
     <div class="photo-group" data-aos="fade-up">
       <h3>📍 二蛋时刻</h3>
       <div class="photo-scroll">
-        <img src="images/1.jpeg" alt="旅行1">
-        <img src="images/2.jpeg" alt="旅行2">
-        <img src="images/3.jpeg" alt="旅行3">
-        <img src="images/4.jpeg" alt="旅行4">
-        <img src="images/5.jpeg" alt="旅行5">
-        <img src="images/6.jpeg" alt="旅行5">
-        <img src="images/7.jpeg" alt="旅行5">
-        <img src="images/8.png" alt="旅行5">
-        <img src="images/9.jpeg" alt="旅行5">
-        <img src="images/10.jpeg" alt="旅行5">
-        <img src="images/11.jpeg" alt="旅行5">
-        <img src="images/12.jpeg" alt="旅行5">
+        <a href="images/1.jpeg" data-lightbox="group-1" data-title="没脖子的奶塔">
+          <img src="images/1.jpeg" alt="傻1">
+        </a>
+        <a href="images/2.jpeg" data-lightbox="group-1" data-title="二蛋超人">
+          <img src="images/2.jpeg" alt="傻2">
+        </a>
+        <a href="images/3.jpeg" data-lightbox="group-1" data-title="学习还开小差">
+          <img src="images/3.jpeg" alt="傻3">
+        </a>
+        <a href="images/4.jpeg" data-lightbox="group-1" data-title="真以为自己张这样的">
+          <img src="images/4.jpeg" alt="傻4">
+        </a>
+        <a href="images/5.jpeg" data-lightbox="group-1" data-title="某次视频">
+          <img src="images/5.jpeg" alt="傻5">
+        </a>
+        <a href="images/6.jpeg" data-lightbox="group-1" data-title="蹦床呆子">
+          <img src="images/6.jpeg" alt="傻6">
+        </a>
+        <a href="images/7.jpeg" data-lightbox="group-1" data-title="这个是真呆">
+          <img src="images/7.jpeg" alt="傻7">
+        </a>
+        <a href="images/8.png" data-lightbox="group-1" data-title="气鼓鼓的小包子">
+          <img src="images/8.png" alt="傻8">
+        </a>
+        <a href="images/9.jpeg" data-lightbox="group-1" data-title="气鼓鼓的小包子">
+          <img src="images/9.jpeg" alt="傻9">
+        </a>
+        <a href="images/10.jpeg" data-lightbox="group-1" data-title="蓝蛋">
+          <img src="images/10.jpeg" alt="傻10">
+        </a>
+        <a href="images/11.jpeg" data-lightbox="group-1" data-title="半天没发现我拍你">
+          <img src="images/11.jpeg" alt="傻11">
+        </a>
+        <a href="images/12.jpeg" data-lightbox="group-1" data-title="给我掐死都">
+          <img src="images/12.jpeg" alt="傻12">
+        </a>
+        
       </div>
     </div>
   
@@ -47,6 +74,14 @@
     </div>
   
   </section>
+
+  <section class="music-box" data-aos="fade-up">
+    <h2>🎵 肥蛋的歌</h2>
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86"
+      src="https://music.163.com/outchain/player?type=2&id=1460930587&auto=1&height=66">
+    </iframe>
+  </section>
+  
   
   
 
@@ -59,6 +94,10 @@
       once: true      // 只在第一次滚动时触发
     });
   </script>
+
+  <!-- Lightbox2 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox.min.js"></script>
+
 
 </body>
 </html>

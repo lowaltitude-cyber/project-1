@@ -1,4 +1,4 @@
-body {
+  body {
     margin: 0;
     font-family: 'Helvetica Neue', sans-serif;
     background: linear-gradient(to bottom, #ffdde1, #ee9ca7);
@@ -105,4 +105,28 @@ body {
   .photo-scroll img:hover {
     transform: scale(1.05);
   }
-  
+
+/* 修复 Lightbox2 的标题不显示问题 */
+.lb-data .lb-caption {
+  display: block !important;
+  opacity: 1 !important;
+  color: #ffffff !important;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.music-box {
+  margin: 3rem auto;
+  text-align: center;
+  background: #fff6f6;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+}
